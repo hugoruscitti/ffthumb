@@ -1,0 +1,19 @@
+{
+  "name": "ffthumb",
+  "version": "0.0.1",
+  "description": "A simple thumb creator videos in nodejs",
+  "main": "ffthumb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugoruscitti/ffthumb.git"
+  },
+  "author": "Hugo Ruscitti",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/hugoruscitti/ffthumb/issues"
+  },
+  "homepage": "https://github.com/hugoruscitti/ffthumb"
+}
