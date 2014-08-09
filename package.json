@@ -1,6 +1,6 @@
 {
   "name": "ffthumb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple thumb creator videos in nodejs",
   "main": "ffthumb.js",
   "scripts": {
