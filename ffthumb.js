@@ -5,6 +5,7 @@ var obj = function() {
   this.input_filename = undefined;
   this.output_filename = undefined;
   this.error_callback = undefined;
+  this.success_callback = undefined;
   this.thumb_size = '0';
 }
 
@@ -23,10 +24,16 @@ obj.prototype.output = function(video) {
   return this;
 }
 
+obj.prototype.success = function(success_callback) {
+  this.success_callback = success_callback;
+  return this;
+}
+
 obj.prototype.error = function(error_callback) {
   this.error_callback = error_callback;
   return this;
 }
+
 
 obj.prototype.done = function() {
   var self = this;
