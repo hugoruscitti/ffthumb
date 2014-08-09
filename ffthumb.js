@@ -47,11 +47,10 @@ obj.prototype.done = function() {
     if (error !== null) {
       if (self.error_callback)
         self.error_callback.call(this, "" + error);
-
-      if (self.success_callback)
-        self.success_callback.call(this);
     }
 
+    if (self.success_callback)
+      self.success_callback.call(this);
   });
 }
 
